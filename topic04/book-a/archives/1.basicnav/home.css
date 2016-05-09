@@ -1,0 +1,39 @@
+*
+{
+  //border: dashed thin;
+}
+body
+{
+  width: 80%;  
+  margin: 0 auto;
+}
+#maincontent
+{  
+  width: 78%;  
+  float: right;
+}
+#navigation
+{  
+  width: 20%;
+  float: left;  
+}
+#header
+{  
+  width: 100%;
+}
+#footer
+{  
+  width: 100%;
+  clear: both;
+}
+#primary
+{  
+  width: 68%;  
+  float: left;  
+}
+
+#secondary
+{  
+  width: 30%;  
+  float: right;
+}

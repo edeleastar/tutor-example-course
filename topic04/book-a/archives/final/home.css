@@ -1,0 +1,67 @@
+*
+{
+  //border: dashed thin;
+}
+body
+{
+  width: 80%;  
+  margin: 0 auto;
+}
+#maincontent
+{  
+  width: 100%;  
+  float: right;
+  padding: 2%;
+  border: blue solid 1px;
+}
+#navigation
+{  
+  width: 100%;
+  float: left;  
+}
+#header
+{  
+  width: 100%;
+}
+#footer
+{  
+  width: 100%;
+  clear: both;
+}
+#primary
+{  
+  width: 68%;  
+  float: left;  
+}
+
+#secondary
+{  
+  width: 30%;  
+  float: right;
+}
+
+ul#menu 
+{
+  margin: 0;
+  padding: 0;
+}
+
+ul#menu li 
+{
+  display:inline; 
+  line-height: 2em;
+  padding-right: .5em;
+  padding-left: .5em;
+}
+
+ul#menu a
+{
+  text-decoration: none;
+}
+
+#menu li.current a 
+{
+  background: blue;
+  padding: .5em 2em .5em 2em;
+  color:white;
+}
